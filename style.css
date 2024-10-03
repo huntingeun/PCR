@@ -1,0 +1,33 @@
+/* style.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.code-input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.code-input {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.code-input:focus {
+    border-color: #007bff;
+    outline: none;
+}
