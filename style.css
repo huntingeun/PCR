@@ -36,6 +36,7 @@ header {
   
 
 .code-input-container {
+    padding: 100px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
@@ -59,4 +60,17 @@ header {
 .code-input:focus {
     border-color: #000000;
     outline: none;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+}
+
+.button {
+    padding: 1rem;
+    color:#ffffff;
+    background-color: #000000;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    border-radius: 5px;
 }
