@@ -43,7 +43,8 @@ header {
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    justify-content: space-between;
+    max-width: 100%; /* Maximum width of the container */
+    margin: 0 auto; /* Center align container */
 }
   
 
@@ -54,8 +55,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     max-width: 100%; /* Maximum width of the container */
-    margin: 0 auto; /* Center align container */
-    justify-content: space-between;
+    margin: 0 2rem; /* Center align container */
 }
 
 .code-input {
@@ -88,8 +88,7 @@ header {
     font-weight: 400; 
     border-radius: 5px;
     max-width: 100%; /* Maximum width of the container */
-    margin: 0 auto; /* Center align container */
-    justify-content: space-between;
+    margin: 0 2rem; /* Center align container */
 
 }
 
