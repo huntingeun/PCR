@@ -80,15 +80,15 @@ header {
 }
 
 .button {
-    padding: 1rem;
+    padding: 0.5rem;
     color:#ffffff;
     background-color: #000000;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
     max-width: 100%; /* Maximum width of the container */
-    margin: 0 2rem; /* Center align container */
+    margin: 0 1rem; /* Center align container */
 
 }
 
