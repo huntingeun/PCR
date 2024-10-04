@@ -24,6 +24,9 @@ header {
     justify-content: space-between;
     align-items: center;
     color: white;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center align container */
+
 }
 
 /* Styling the logo and clickable text */
@@ -42,6 +45,8 @@ header {
     gap: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center align container */
 }
 
 .code-input {
@@ -73,4 +78,28 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center align container */
+
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
+/* Styles for mobile phones (screens less than 480px) */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+    }
 }
