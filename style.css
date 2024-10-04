@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -14,6 +20,7 @@ body {
     justify-content: flex-start; /* Keep at the top */
     height: 100vh; /* Full viewport height */
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     background-color: #ffffff;
 }
 
@@ -35,18 +42,20 @@ header {
     text-decoration: none;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
+    justify-content: space-between;
 }
   
 
 .code-input-container {
-    padding: 100px;
     display: flex;
     justify-content: space-between;
     gap: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-    max-width: 1200px; /* Maximum width of the container */
+    max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
+    justify-content: space-between;
 }
 
 .code-input {
@@ -78,8 +87,9 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
-    max-width: 1200px; /* Maximum width of the container */
+    max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
+    justify-content: space-between;
 
 }
 
@@ -88,7 +98,7 @@ header {
         font-size: 16px;
     }
 
-    .container {
+    .code-input-container{
         width: 90%;
     }
 }
@@ -99,7 +109,7 @@ header {
         font-size: 14px;
     }
 
-    .container {
-        width: 100%;
+    .code-input-container {
+        width: 95%;
     }
 }
