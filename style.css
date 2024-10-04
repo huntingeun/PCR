@@ -7,17 +7,21 @@
     box-sizing: border-box;
 }
 
+body, html {
+    height: 100%;
+}
 
 body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Horizontal centering */
-    justify-content: flex-start; /* Keep at the top */
-    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Keep at the top */
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #ffffff;
+    gap: 2rem; /* Add vertical space between components */
+    height: 100vh; /* Full viewport height */
 }
 
 header {
