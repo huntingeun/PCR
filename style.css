@@ -91,6 +91,9 @@ header {
     body {
         font-size: 14px;
     }
+    .code-input, .code-input:focus,  .button {
+        font-size: 12px;
+    }
 
     
 }
@@ -100,6 +103,9 @@ header {
     body {
         font-size: 12px;
     }
-
     
+    .code-input, .code-input:focus,  .button {
+        font-size: 10px;
+    }
+
 }
