@@ -7,10 +7,6 @@
     box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -57,8 +53,8 @@ header {
 }
 
 .code-input {
-    width: 50px;
-    height: 50px;
+    width: 1rem;
+    height: 1rem;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
