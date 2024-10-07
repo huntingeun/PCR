@@ -54,8 +54,8 @@ header {
 }
 
 .code-input {
-    width: 1rem;
-    height: 1rem;
+    width: 40px;
+    height: 40px;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
@@ -82,28 +82,24 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
-    max-width: 100%; /* Maximum width of the container */
+    max-width: 70%; /* Maximum width of the container */
     margin: 0 1rem; /* Center align container */
 
 }
 
 @media (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
     }
 
-    .code-input-container{
-        width: 90%;
-    }
+    
 }
 
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    .code-input-container {
-        width: 95%;
-    }
+    
 }
