@@ -12,7 +12,6 @@ body {
     flex-direction: column;
     align-items: center; /* Horizontal centering */
     justify-content: center; /* Keep at the top */
-    width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #ffffff;
@@ -44,9 +43,9 @@ header {
 }
   
 .image {
-    max-width: 50%; /* Maximum width of the container */
-    max-height: 30%;
-    margin: 0 auto; /* Center align container */
+    max-width: 6%; /* Maximum width of the container */
+    max-height: 8%;
+    margin:0 auto; /* Center align container */
 }
 
 .name {
