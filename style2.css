@@ -43,50 +43,31 @@ header {
     margin: 0 auto; /* Center align container */
 }
   
-
-.code-input-container {
+.image {
     display: flex;
     gap: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-    max-width: 100%; /* Maximum width of the container */
+    max-width: 50%; /* Maximum width of the container */
+    height: 30%;
     margin: 0 auto; /* Center align container */
 }
 
-.code-input {
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400; 
-    text-align: center;
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    background-color: #fff;
-    transition: border-color 0.3s;
-}
-
-.code-input:focus {
-    border-color: #000000;
-    outline: none;
+.name {
+    color:#000000;
     font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-}
+    text-align: center;
+    }
 
-.button {
-    padding: 0.5rem;
-    color:#ffffff;
-    background-color: #000000;
-    font-size: 1.5rem;
+.code {
+    color:#000000;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
-    border-radius: 5px;
-    max-width: 50%; /* Maximum width of the container */
-    margin: 0 auto; /* Center align container */
-    cursor: pointer;
-
-}
+    text-align: center;
+    }
 
 @media (max-width: 768px) {
     body {
