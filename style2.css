@@ -43,11 +43,10 @@ header {
 }
   
 .image {
-    display: inline-block;
-    vertical-align: baseline;
+    display: block; /* Treats image as a block element */
     max-width: 6%; /* Maximum width of the container */
     max-height: 8%;
-    margin:0 auto; /* Center align container */
+    margin:10px auto; /* Center align container */
 }
 
 .name {
