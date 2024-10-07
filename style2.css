@@ -44,6 +44,7 @@ header {
   
 .image {
     display: inline-block;
+    vertical-align: baseline;
     max-width: 6%; /* Maximum width of the container */
     max-height: 8%;
     margin:0 auto; /* Center align container */
