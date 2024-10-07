@@ -44,8 +44,6 @@ header {
 }
   
 .image {
-    display: flex;
-    gap: 10px;
     max-width: 50%; /* Maximum width of the container */
     max-height: 30%;
     margin: 0 auto; /* Center align container */
