@@ -21,8 +21,19 @@
         a:active {
             color: black; /* Keep the color the same when clicked */
         }
+        body {
+            display: grid;
+            place-items: center; /* centers content horizontally and vertically */
+            height: 100vh;
+            margin: 0;
+        }
 
-        /* Optional: You can prevent any other state-specific changes if needed */
+        .h1, .code-input-container, button {
+            width: 50%;
+            background-color: lightgreen;
+            padding: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
