@@ -46,10 +46,8 @@ header {
 .image {
     display: flex;
     gap: 10px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400; 
     max-width: 50%; /* Maximum width of the container */
-    height: 30%;
+    max-height: 30%;
     margin: 0 auto; /* Center align container */
 }
 
