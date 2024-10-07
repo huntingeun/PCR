@@ -89,10 +89,10 @@ header {
 
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 1.5rem;
     }
     .code-input, .code-input:focus,  .button {
-        font-size: 12px;
+        font-size: 1.5rem;
     }
 
     
@@ -101,11 +101,11 @@ header {
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     body {
-        font-size: 12px;
+        font-size: 1rem;
     }
     
     .code-input, .code-input:focus,  .button {
-        font-size: 10px;
+        font-size: 1rem;
     }
 
 }
