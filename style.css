@@ -36,7 +36,7 @@ header {
 .h1 {
     color: #ffffff;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     max-width: 100%; /* Maximum width of the container */
@@ -50,7 +50,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     max-width: 100%; /* Maximum width of the container */
-    margin: 0 2rem; /* Center align container */
+    margin: 0 auto; /* Center align container */
 }
 
 .code-input {
@@ -82,8 +82,8 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
-    max-width: 70%; /* Maximum width of the container */
-    margin: 0 1rem; /* Center align container */
+    max-width: 50%; /* Maximum width of the container */
+    margin: 0 auto; /* Center align container */
 
 }
 
