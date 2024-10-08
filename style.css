@@ -58,7 +58,7 @@ header {
     margin: 0 auto;
 }
 
-.code-input-container {
+.container .code-input-container {
     display: flex;
     gap: 10px;
     font-family: 'Poppins', sans-serif;
