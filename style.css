@@ -48,12 +48,12 @@ header {
 .container {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
-    align-items: center;    /* Center items horizontally */
-    justify-content: center; /* Space out the items vertically */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: calc(100vh - 60px); /* Full viewport height minus the header height */
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    max-height: 400px;
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
