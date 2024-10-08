@@ -49,7 +49,7 @@ header {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     align-items: center;    /* Center items horizontally */
-    justify-content: space-around; /* Space out the items vertically */
+    justify-content: center; /* Space out the items vertically */
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
