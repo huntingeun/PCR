@@ -50,7 +50,7 @@ header {
     flex-direction: column; /* Arrange items vertically */
     align-items: center;    /* Center items horizontally */
     justify-content: space-around; /* Space out the items vertically */
-    padding: 10rem 20px 20px 20px;
+    padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     max-width: 400px;
