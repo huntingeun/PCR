@@ -98,11 +98,10 @@ header {
     font-weight: 400; 
     border-radius: 5px;
     max-width: 70%; /* Maximum width of the container */
-    margin: 0 auto; /* Center align container */
+    margin: 20px auto; /* Center align container */
     cursor: pointer;
     white-space: nowrap;     /* Prevents text from wrapping */
     overflow: hidden;        /* Hides overflowed text */
-    text-overflow: ellipsis; /* Adds ellipsis (...) if text is too long */
     border: none;
 }
 
