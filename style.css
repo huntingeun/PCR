@@ -97,7 +97,6 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
-    max-width: 70%; /* Maximum width of the container */
     margin: 20px auto; /* Center align container */
     cursor: pointer;
     white-space: nowrap;     /* Prevents text from wrapping */
