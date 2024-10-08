@@ -27,11 +27,11 @@ body {
     left: 0;
     width: 100%; /* Make the header span the entire width */
     background-color: #ffffff;
-    color: #000000
+    color: #000000;
     text-align: center;
     padding: 15px 0;
     z-index: 1000; /* Ensure the header stays on top of other content */
-  }
+}
 
 /* Styling the logo and clickable text */
 .h1 {
