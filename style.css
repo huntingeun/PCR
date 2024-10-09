@@ -93,6 +93,7 @@ header {
     color: red;
     font-size: 1.5rem;
     display: none; /* Hidden by default */
+    margin: 20px auto;
 }
 
 .button {
