@@ -49,6 +49,9 @@ function getCode() {
 async function fetchValidCodes() {
     try {
         const response = await fetch('data.json'); // Path to the JSON file
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
         return await response.json();
     } catch (error) {
         console.error('Error loading the JSON file:', error);
@@ -56,16 +59,21 @@ async function fetchValidCodes() {
     }
 }
 
-// Function to validate the entered code
+// Function to validate the code
 async function validateCode(inputCode) {
-    const validCodes = await fetchValidCodes(); // Fetch the valid codes
+    const validCodes = await fetchValidCodes(); // Fetch valid codes from JSON
 
-    if (validCodes.includes(inputCode)) {
-        // If the code is valid, redirect to result.html
-        window.location.href = `result.html?code=${inputCode}`; // result page URL shows inputted code
+    // Check if the input code matches any valid code
+    const codeFound = validCodes.some(entry => entry.code === inputCode);
+
+    if (codeFound) {
+        // Code is valid, proceed to result.html
+        window.location.href = `result.html?code=${inputCode}`;
     } else {
-        // If the code is invalid, show the error message
+        // Code is invalid, show error message
         document.getElementById('errorMessage').style.display = 'block';
     }
 }
+
+
 
