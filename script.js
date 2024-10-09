@@ -48,7 +48,7 @@ function getCode() {
 // Fetch the JSON file with valid codes
 async function fetchValidCodes() {
     try {
-        const response = await fetch('codes.json'); // Path to the JSON file
+        const response = await fetch('data.json'); // Path to the JSON file
         return await response.json();
     } catch (error) {
         console.error('Error loading the JSON file:', error);
