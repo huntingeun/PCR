@@ -1,5 +1,4 @@
 // script.js
-
 document.addEventListener("DOMContentLoaded", function() {
     const inputs = document.querySelectorAll(".code-input");
 
@@ -28,10 +27,44 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Function to get the full code from the inputs
+
+// Function to get the code entered by the user
 function getCode() {
-    const code = Array.from(document.querySelectorAll(".code-input"))
-                      .map(input => input.value)
-                      .join('');
-    console.log("Entered 7-character code:", code);
+    // Combine the values from each input into a single string
+    const code = [
+        document.getElementById('digit-1').value,
+        document.getElementById('digit-2').value,
+        document.getElementById('digit-3').value,
+        document.getElementById('digit-4').value,
+        document.getElementById('digit-5').value,
+        document.getElementById('digit-6').value,
+        document.getElementById('digit-7').value
+    ].join('');
+
+    // Call function to validate the code
+    validateCode(code);
+}
+
+// Fetch the JSON file with valid codes
+async function fetchValidCodes() {
+    try {
+        const response = await fetch('codes.json'); // Path to the JSON file
+        return await response.json();
+    } catch (error) {
+        console.error('Error loading the JSON file:', error);
+        return [];
+    }
+}
+
+// Function to validate the entered code
+async function validateCode(inputCode) {
+    const validCodes = await fetchValidCodes(); // Fetch the valid codes
+
+    if (validCodes.includes(inputCode)) {
+        // If the code is valid, redirect to result.html
+        window.location.href = 'result.html';
+    } else {
+        // If the code is invalid, show the error message
+        document.getElementById('errorMessage').style.display = 'block';
+    }
 }
