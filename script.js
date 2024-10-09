@@ -62,9 +62,10 @@ async function validateCode(inputCode) {
 
     if (validCodes.includes(inputCode)) {
         // If the code is valid, redirect to result.html
-        window.location.href = 'result.html';
+        window.location.href = 'result.html?code=${inputCode}';
     } else {
         // If the code is invalid, show the error message
         document.getElementById('errorMessage').style.display = 'block';
     }
 }
+
