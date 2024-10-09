@@ -40,7 +40,7 @@ async function loadUserData() {
         // If no matching user is found, show an error message
         document.getElementById('userCode').textContent = 'No matching data found';
         document.getElementById('dynamicName').textContent = 'Unknown';
-        document.getElementById('dynamicImage').src = 'default-image.jpg'; // Optional fallback image
+        document.getElementById('dynamicImage').src = '/images/default-image.png'; // Optional fallback image
     }
 }
 
