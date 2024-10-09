@@ -1,3 +1,23 @@
+// Function to extract query parameters from the URL
+function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+}
+
+// Fetch data from the JSON file
+async function fetchData() {
+    try {
+        const response = await fetch('data.json'); // Ensure this path is correct
+        if (!response.ok) {
+            throw new Error(`Failed to fetch JSON data. Status: ${response.status}`);
+        }
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching the JSON file:', error);
+        return [];
+    }
+}
+
 // Function to update the HTML dynamically with the data from JSON
 async function loadUserData() {
     const code = getQueryParam('code'); // Get the code from the URL
@@ -20,7 +40,7 @@ async function loadUserData() {
         // If no matching user is found, show an error message
         document.getElementById('userCode').textContent = 'No matching data found';
         document.getElementById('dynamicName').textContent = 'Unknown';
-        document.getElementById('dynamicImage').src = '/images/default-image.jpg'; // Optional fallback image
+        document.getElementById('dynamicImage').src = 'default-image.jpg'; // Optional fallback image
     }
 }
 
