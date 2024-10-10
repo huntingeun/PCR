@@ -57,7 +57,7 @@ header {
     width: 100%;
     overflow: auto;
     height: 100%; /* Remove static height; JavaScript will handle it */
-    margin: 0 auto; 
+    margin: 60px auto; 
 }
 
 .container .code-input-container {
