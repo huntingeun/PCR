@@ -55,11 +55,10 @@ header {
     border-radius: 8px;
     max-width: 400px;
     width: 100%;
-    margin: 0 auto;
-    /* Now we just set the height dynamically, no need to subtract the header height */
-    height: var(--vh, 100vh); 
-    overflow: hidden; /* Prevent scrolling */
+    margin: 60px auto; 
+    /* We'll leave height as auto, and adjust it dynamically via JavaScript */
     margin-top: 60px; /* Push the content down to clear the header */
+    overflow: auto; /* Allow scrolling if necessary */
 }
 
 .container .code-input-container {

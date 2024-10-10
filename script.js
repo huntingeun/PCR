@@ -75,14 +75,21 @@ async function validateCode(inputCode) {
     }
 }
 
-// JavaScript to set the viewport height correctly
-function setViewportHeight() {
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
+// Function to adjust the height of the container dynamically
+function setContainerHeight() {
+// Get the height of the viewport
+const viewportHeight = window.innerHeight;
+// Get the height of the header (60px in this case)
+const headerHeight = document.querySelector('header').offsetHeight;
+// Set the container height to fill the remaining space
+const containerHeight = viewportHeight - headerHeight;
+
+// Apply the calculated height to the container
+document.querySelector('.container').style.height = `${containerHeight}px`;
 }
 
 // Set the height on page load
-setViewportHeight();
+setContainerHeight();
 
-// Update the height on resize
-window.addEventListener('resize', setViewportHeight);
+// Update the height on resize (for keyboard appearance, screen rotation, etc.)
+window.addEventListener('resize', setContainerHeight);
