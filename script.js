@@ -75,15 +75,3 @@ async function validateCode(inputCode) {
     }
 }
 
-// JavaScript to dynamically set --vh to the viewport height
-  function setViewportHeight() {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-
-// Set the height on page load
-setViewportHeight();
-
-// Update the height on resize
-window.addEventListener('resize', setViewportHeight);
-
