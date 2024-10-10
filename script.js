@@ -74,14 +74,3 @@ async function validateCode(inputCode) {
         document.getElementById('errorMessage').style.display = 'block';
     }
 }
-
-function setViewportHeight() {
-    let vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`);
-}
-
-// Set the height on load
-setViewportHeight();
-
-// Optionally update the height on resize
-window.addEventListener('resize', setViewportHeight);

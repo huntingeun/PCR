@@ -56,9 +56,7 @@ header {
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
-    /*height: calc(100vh - 60px);*/ /* Full viewport height minus header height */
-    height: var(--vh, 100vh); /* Fallback in case JavaScript doesn't run */
-    overflow: hidden; /* Prevent scrolling */
+    height: calc(100vh - 60px); /* Full viewport height minus header height */
 }
 
 .container .code-input-container {
