@@ -75,21 +75,17 @@ async function validateCode(inputCode) {
     }
 }
 
-// Function to adjust the height of the container dynamically
+// Function to calculate the actual height
 function setContainerHeight() {
-// Get the height of the viewport
-const viewportHeight = window.innerHeight;
-// Get the height of the header (60px in this case)
-const headerHeight = document.querySelector('header').offsetHeight;
-// Set the container height to fill the remaining space
-const containerHeight = viewportHeight - headerHeight;
+    // Get the actual inner height of the viewport
+    const viewportHeight = window.innerHeight;
 
-// Apply the calculated height to the container
-document.querySelector('.container').style.height = `${containerHeight}px`;
+    // Set the container's height to fill the viewport minus the header height
+    document.querySelector('.container').style.height = `${viewportHeight - 60}px`; // Adjust for the header height (60px)
 }
 
 // Set the height on page load
-setContainerHeight();
+window.addEventListener('load', setContainerHeight);
 
-// Update the height on resize (for keyboard appearance, screen rotation, etc.)
+// Recalculate the height when the window is resized (or when keyboard appears)
 window.addEventListener('resize', setContainerHeight);
