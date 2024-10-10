@@ -75,7 +75,7 @@ async function validateCode(inputCode) {
     }
 }
 
-// Function to calculate the actual height
+// Function to calculate the actual height (set container at the same height after keyboard appears)
 function setContainerHeight() {
     // Get the actual inner height of the viewport
     const viewportHeight = window.innerHeight;
