@@ -105,7 +105,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
-    margin: 20px auto; /* Center align container */
+    margin: 10px auto; /* Center align container */
     cursor: pointer;
     white-space: nowrap;     /* Prevents text from wrapping */
     overflow: hidden;        /* Hides overflowed text */
