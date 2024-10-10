@@ -56,7 +56,10 @@ header {
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
-    height: calc(100vh - 60px); /* Full viewport height minus header height */
+    /* Now we just set the height dynamically, no need to subtract the header height */
+    height: var(--vh, 100vh); 
+    overflow: hidden; /* Prevent scrolling */
+    margin-top: 60px; /* Push the content down to clear the header */
 }
 
 .container .code-input-container {
