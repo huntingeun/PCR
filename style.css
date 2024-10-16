@@ -79,6 +79,7 @@ header {
     border: 2px solid #ccc;
     border-radius: 8px;
     background-color: #fff;
+    color: #000000;
     transition: border-color 0.3s;
 }
 
