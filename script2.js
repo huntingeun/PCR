@@ -38,8 +38,8 @@ async function loadUserData() {
         document.getElementById('dynamicImage').src = userData.image;
     } else {
         // If no matching user is found, show an error message
-        document.getElementById('userCode').textContent = 'No matching data found';
-        document.getElementById('dynamicName').textContent = 'Unknown';
+        document.getElementById('userCode').textContent = 'NO MATCHING DATA FOUND...';
+        document.getElementById('dynamicName').textContent = 'UNKNOWN';
         document.getElementById('dynamicImage').src = '/images/default-image.png'; // Optional fallback image
     }
 }
