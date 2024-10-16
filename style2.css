@@ -38,8 +38,10 @@ header {
 .h1 {
     color: #ffffff;
     text-decoration: none;
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.17em; /* Use em for better control */
+    font-weight: 900;
+    color: #504848;
     max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
 }
@@ -62,7 +64,7 @@ header {
     width: 100%;
     height: auto;
     max-width: 250px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5rem;
     }
 
 .name {
@@ -71,7 +73,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     }
 
 .code {
@@ -80,7 +82,7 @@ header {
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     }
 
 .footer {
