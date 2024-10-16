@@ -130,7 +130,6 @@ header {
 }
 
 
-
 .footer {
     position: fixed; /* Fixed position */
     bottom: 0; /* Align at the bottom */
@@ -139,7 +138,6 @@ header {
     background-color: #ffffff; 
     color: white;
     padding: 40px 0 40px 0; /* Add padding */
-    z-index: 5;
 }
 
 .footer-underline {
