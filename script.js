@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Allow only alphanumeric characters (both letters and numbers)
         input.addEventListener("input", (e) => {
             // Regular expression to allow only alphanumeric characters (A-Z, a-z, 0-9)
-            input.value = input.value.replace(/[^a-zA-Z0-9]/g, '');
+            input.value = input.value.replace(/[0-9]/g, '');
         });
     });
 });
