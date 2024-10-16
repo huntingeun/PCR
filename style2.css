@@ -93,14 +93,7 @@ header {
     margin-bottom: 1rem;
     }
 
-.footer-underline {
-    width: 80%; /* Set width to 80% of viewport */
-    height: 1px; /* Set thickness of the underline */
-    background-color: #BDB8B8; /* Color of the underline */
-    margin: 0 auto 10px auto; /* Center it horizontally with margin */
-    z-index: 10;
-    /* You can adjust the margin-top and margin-bottom as needed */
-}
+
 
 .footer {
     position: fixed; /* Fixed position */
@@ -109,10 +102,15 @@ header {
     width: 100%; /* Full width */
     background-color: #000; 
     color: white;
-    padding: 20px 0 20px 0; /* Add padding */
-    z-index: 5;
 }
-    
+   
+.footer-underline {
+    width: 80%; /* Set width to 80% of viewport */
+    height: 1px; /* Set thickness of the underline */
+    background-color: #BDB8B8; /* Color of the underline */
+    margin: 0 auto 10px auto; /* Center it horizontally with margin */
+    /* You can adjust the margin-top and margin-bottom as needed */
+}
 
 @media (max-width: 768px) {
     body {
