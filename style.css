@@ -40,9 +40,9 @@ header {
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
-    letter-spacing: 17%;
-    color: #504848;
+    letter-spacing: 0.17em; /* Use em for better control */
     font-weight: 900;
+    color: #504848;
     max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
 }
@@ -104,9 +104,8 @@ header {
     padding: 0.5rem;
     color:#ffffff;
     background-color: #5E5E5E;
-    font-weight: 900;
     font-size: 14px;
-    letter-spacing: 28%;
+    letter-spacing: 0.28em; /* Use em for better control */
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
