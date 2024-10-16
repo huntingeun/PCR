@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <title>PRIMARY CONSUMER RECORDS</title>
     <link rel="stylesheet" href="style.css">
     <style>
@@ -38,13 +38,13 @@
 
     <div class="container">
         <div class="code-input-container">
-            <input type="text" maxlength="1" class="code-input" id="digit-1" autofocus>
-            <input type="text" maxlength="1" class="code-input" id="digit-2">
-            <input type="text" maxlength="1" class="code-input" id="digit-3">
-            <input type="text" maxlength="1" class="code-input" id="digit-4">
-            <input type="text" maxlength="1" class="code-input" id="digit-5">
-            <input type="text" maxlength="1" class="code-input" id="digit-6">
-            <input type="text" maxlength="1" class="code-input" id="digit-7">
+            <input type="text" maxlength="1" class="code-input" id="digit-1" inputmode="numeric" pattern="[0-9]*" autofocus>
+            <input type="text" maxlength="1" class="code-input" id="digit-2" inputmode="numeric" pattern="[0-9]*">
+            <input type="text" maxlength="1" class="code-input" id="digit-3" inputmode="numeric" pattern="[0-9]*">
+            <input type="text" maxlength="1" class="code-input" id="digit-4" inputmode="numeric" pattern="[0-9]*">
+            <input type="text" maxlength="1" class="code-input" id="digit-5" inputmode="numeric" pattern="[0-9]*">
+            <input type="text" maxlength="1" class="code-input" id="digit-6" inputmode="numeric" pattern="[0-9]*">
+            <input type="text" maxlength="1" class="code-input" id="digit-7" inputmode="numeric" pattern="[0-9]*">
         </div>
         <div class="error" id="errorMessage">ERROR! Try Again</div>
         <button class="button" onclick="getCode()">Submit the code</button>
