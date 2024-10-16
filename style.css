@@ -136,9 +136,10 @@ header {
     bottom: 0; /* Align at the bottom */
     left: 0; /* Align at the left */
     width: 100%; /* Full width */
-    background-color: #000; 
+    background-color: #ffffff; 
     color: white;
-    padding: 20px 0 20px 0; /* Add padding */
+    padding: 40px 0 40px 0; /* Add padding */
+    z-index: 5;
 }
 
 .footer-underline {
@@ -147,6 +148,7 @@ header {
     background-color: #BDB8B8; /* Color of the underline */
     margin: 0 auto 10px auto;  /* Center it horizontally with margin */
     /* You can adjust the margin-top and margin-bottom as needed */
+    z-index: 10;
 }
 
 @media (max-width: 768px) {
