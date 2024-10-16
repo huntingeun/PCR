@@ -101,9 +101,7 @@ header {
         font-size: 1.5rem;
         height: 100vh;
     }
-    .h1 {
-        font-size: 2rem;
-    }
+  
     .image {
         width: 100%;
         height: auto;
@@ -129,9 +127,7 @@ header {
         max-width: 200px;
         margin-bottom: 20px;
         }
-    .h1 {
-        font-size: 1.5rem;
-    }
+ 
     .name,  .code {
         font-size: 1.2rem;
     }
