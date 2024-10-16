@@ -12,6 +12,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Horizontal centering */
+    justify-content: center;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #ffffff;
@@ -44,18 +45,19 @@ header {
 }
 
 .container {
-display: flex;
-flex-direction: column;
-justify-content: flex-start;  /* Align at the top of available space */
-align-items: center;
-padding-top: 100px; /* Add space for the fixed header */
-background-color: #ffffff;
-border-radius: 8px;
-max-width: 400px;
-width: 100%;
-margin: 0 auto;
-height: auto; /* Let the height adjust based on content */
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center;  /* Center items in the container */
+    align-items: center;      /* Center horizontally */
+    height: calc(100vh - 60px); /* Full viewport height minus the header height */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto; /* Center the container */
 }
+
 .image {
     width: 100%;
     height: auto;
