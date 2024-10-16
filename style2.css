@@ -76,19 +76,21 @@ header {
     }
 
 .name {
-    color:#000000;
-    font-size: 1.5rem;
+    color:#504848;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400; 
+    font-weight: 600; 
+    letter-spacing: 0.17em;
     text-align: center;
     margin-bottom: 1rem;
     }
 
 .code {
-    color:#000000;
-    font-size: 1.5rem;
+    color:#504848;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 400; 
+    font-weight: 600; 
+    letter-spacing: 0.17em;
     text-align: center;
     margin-bottom: 1rem;
     }
@@ -127,9 +129,6 @@ header {
         max-width: 250px;
         margin-bottom: 20px;
         }
-    .name, .code {
-        font-size: 1.5rem;
-    }
 
     
 }
@@ -147,8 +146,4 @@ header {
         margin-bottom: 20px;
         }
  
-    .name,  .code {
-        font-size: 1.2rem;
-    }
-
 }
