@@ -103,9 +103,9 @@ header {
 
 .error {
     color: red;
-    font-size: 1.5rem;
+    font-size: 15px;
     display: none; /* Hidden by default */
-    margin: 20px 0 10px 0;
+    margin: 10px 0 5px 0;
 }
 
 .button {
