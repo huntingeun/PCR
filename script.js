@@ -19,10 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        // Allow only alphanumeric characters (both letters and numbers)
+        // Allow only numeric characters 
         input.addEventListener("input", (e) => {
-            // Regular expression to allow only alphanumeric characters (A-Z, a-z, 0-9)
-            input.value = input.value.replace(/[0-9]/g, '');
+            // Regular expression to allow only numeric characters (0-9)
+            input.value = input.value.replace(/[^0-9]/g, '');
         });
     });
 });
