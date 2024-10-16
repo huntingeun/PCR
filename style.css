@@ -50,12 +50,7 @@ a:hover {
 a:active {
     color: black; /* Keep the color the same when clicked */
 }
-body {
-    display: grid;
-    height: 100vh;
-    width: 100vw;
-    margin: 0 auto;
-}
+
 
 /* Styling the logo and clickable text */
 .h1 {
