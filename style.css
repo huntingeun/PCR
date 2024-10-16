@@ -101,7 +101,7 @@ header {
 .button {
     padding: 0.5rem;
     color:#ffffff;
-    background-color: #000000;
+    background-color: #5E5E5E;
     font-size: 1.5rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
@@ -111,6 +111,22 @@ header {
     white-space: nowrap;     /* Prevents text from wrapping */
     overflow: hidden;        /* Hides overflowed text */
     border: none;
+}
+
+/* Change button color on hover */
+.button:hover {
+    background-color: #000000; /* Darker shade for hover effect */
+}
+
+.footer {
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Align at the bottom */
+    left: 0; /* Align at the left */
+    width: 100%; /* Full width */
+    background-color: #343A40; /* Dark background */
+    color: white;
+    text-align: center; /* Center text */
+    padding: 1rem; /* Add padding */
 }
 
 @media (max-width: 768px) {

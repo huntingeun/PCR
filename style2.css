@@ -83,6 +83,17 @@ header {
     margin-bottom: 10px;
     }
 
+.footer {
+    position: fixed; /* Fixed position */
+    bottom: 0; /* Align at the bottom */
+    left: 0; /* Align at the left */
+    width: 100%; /* Full width */
+    background-color: #343A40; /* Dark background */
+    color: white;
+    text-align: center; /* Center text */
+    padding: 1rem; /* Add padding */
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 1.5rem;
