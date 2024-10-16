@@ -105,7 +105,7 @@ header {
     color:#ffffff;
     background-color: #5E5E5E;
     font-size: 14px;
-    letter-spacing: 0.28em; /* Use em for better control */
+    letter-spacing: 0.1em; /* Use em for better control */
     font-family: 'Poppins', sans-serif;
     font-weight: 400; 
     border-radius: 5px;
