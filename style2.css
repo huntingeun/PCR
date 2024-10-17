@@ -136,8 +136,7 @@ a:active {
 @media (max-width: 768px) {
     .container {
         padding: 10px; /* Reduce padding for smaller screens */
-        max-width: 100%; /* Make sure it doesn't take the full width on mobile */
-        margin: 0 15px; /* Adjust margin for responsiveness */
+        max-width: 95%; /* Make sure it doesn't take the full width on mobile */
     }
 
     .image {
@@ -151,8 +150,7 @@ a:active {
 @media (max-width: 480px) {
     .container {
         padding: 8px; /* Further reduce padding on very small screens */
-        max-width: 100%; /* Keep some margin on the sides for very small screens */
-        margin: 0 10px; /* Adjust margin for responsiveness */
+        max-width: 90%; /* Keep some margin on the sides for very small screens */
     }
     .image {
         max-width: 320px;
