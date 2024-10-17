@@ -98,7 +98,7 @@ a:active {
     font-weight: 500; 
     letter-spacing: 0.17em;
     text-align: left;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     }
 
 .code {
@@ -106,7 +106,7 @@ a:active {
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500; 
-    letter-spacing: 0.17em;
+    letter-spacing: 0.27em;
     text-align: left;
     margin-bottom: 1rem;
     }
