@@ -134,16 +134,9 @@ a:active {
 
 
 @media (max-width: 768px) {
-    .container {
-        padding: 10px; /* Reduce padding for smaller screens */
-        max-width: 95%; /* Make sure it doesn't take the full width on mobile */
-    }
-
     .image {
         max-width: 480px;
         }
-
-    
 }
 
 /* Styles for mobile phones (screens less than 480px) */
