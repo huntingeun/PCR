@@ -145,7 +145,7 @@ a:active {
 @media (max-width: 480px) {
 
     .image {
-        max-width: 350px;
+        max-width: 320px;
         }
  
 }
