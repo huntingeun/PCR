@@ -77,7 +77,6 @@ a:active {
     justify-content: center;  
     height: calc(100vh-114px); 
     background-color: #ffffff;
-    border-radius: 8px;
     max-width: 900px;
     width: 100%;
     margin: 0 auto; 
