@@ -16,10 +16,10 @@ html, body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #ffffff;
-    gap: 2rem; /* Add vertical space between components */
     max-width: 100%;
     min-height: 100vh; /* Full viewport height */
     padding: 0; 
+    margin: 0;
 }
 
 header {
@@ -98,7 +98,7 @@ a:active {
     border-radius: 8px;
     max-width: 900px;
     width: 100%;
-    margin:0 auto;  /* Ensure equal margins */
+    margin:0 20px;  /* Ensure equal margins */
 }
 
 .image {
@@ -153,7 +153,8 @@ a:active {
 @media (max-width: 768px) {
     .container {
         padding: 10px; /* Reduce padding for smaller screens */
-        width: 90%; /* Make sure it doesn't take the full width on mobile */
+        max-width: 100%; /* Make sure it doesn't take the full width on mobile */
+        margin: 0 15px; /* Adjust margin for responsiveness */
     }
 
     .image {
@@ -167,7 +168,8 @@ a:active {
 @media (max-width: 480px) {
     .container {
         padding: 8px; /* Further reduce padding on very small screens */
-        width: 95%; /* Keep some margin on the sides for very small screens */
+        max-width: 100%; /* Keep some margin on the sides for very small screens */
+        margin: 0 10px; /* Adjust margin for responsiveness */
     }
     .image {
         max-width: 320px;
