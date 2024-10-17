@@ -24,7 +24,7 @@ html, body {
 }
 
 header {
-    position: fixed; /* Fix the header at the top */
+    /*position: fixed; /* Fix the header at the top */
     top: 0;
     left: 0;
     width: 100%; /* Make the header span the entire width */
