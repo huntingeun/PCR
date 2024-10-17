@@ -75,7 +75,7 @@ a:active {
     display: flex;
     flex-direction: column; 
     justify-content: center;  
-    height: calc(90vh); 
+    height: calc(100vh-114px); 
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -135,7 +135,7 @@ a:active {
 
 @media (max-width: 768px) {
     .container {
-        height: calc(80vh); /* Adjust the height based on mobile navigation bar */
+        height: calc(100vh-114px); /* Adjust the height based on mobile navigation bar */
     }
     .image {
         max-width: 480px;
@@ -145,7 +145,7 @@ a:active {
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     .container {
-        height: calc(70vh); /* Adjust the height based on mobile navigation bar */
+        height: calc(100vh-114px); /* Adjust the height based on mobile navigation bar */
         justify-content: center;
         background-color: green;
     } 
