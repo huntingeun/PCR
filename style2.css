@@ -147,6 +147,7 @@ a:active {
     .container {
         height: calc(70vh); /* Adjust the height based on mobile navigation bar */
         justify-content: center;
+        background-color: green;
     } 
     .image {
         max-width: 340px;
