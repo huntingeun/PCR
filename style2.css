@@ -118,7 +118,7 @@ a:active {
     bottom: 0; /* Align at the bottom */
     left: 0; /* Align at the left */
     width: 100%; /* Full width */
-    background-color: red; 
+    background-color: #fff; 
     color: white;
     padding: 0 0 56px 0; /* Add padding */
 }
