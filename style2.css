@@ -76,7 +76,6 @@ a:active {
     flex-direction: column; 
     justify-content: center;  
     height: calc(100vh-114px); 
-    padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
     max-width: 900px;
