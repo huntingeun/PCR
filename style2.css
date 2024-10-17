@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     width: 100%; /* Make the header span the entire width */
-    background-color: red;
+    background-color: #fff;
     color: #000000;
     text-align: center;
     padding: 20px 0 0 0;
@@ -118,9 +118,9 @@ a:active {
     bottom: 0; /* Align at the bottom */
     left: 0; /* Align at the left */
     width: 100%; /* Full width */
-    background-color: #ffffff; 
+    background-color: red; 
     color: white;
-    padding: 40px 0 40px 0; /* Add padding */
+    padding: 0 0 56px 0; /* Add padding */
 }
 
 .footer-underline {
