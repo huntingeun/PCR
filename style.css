@@ -147,7 +147,7 @@ a:active {
 
 
 .footer {
-    /* position: fixed;* Fixed position */
+    position: fixed;* /*Fixed position */
     bottom: 0; /* Align at the bottom */
     left: 0; /* Align at the left */
     width: 100%; /* Full width */
