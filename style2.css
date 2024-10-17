@@ -70,7 +70,7 @@ a:active {
     /* You can adjust the margin-top and margin-bottom as needed */
 }
 
-/*
+
 .container {
     display: flex;
     flex-direction: column; 
@@ -82,23 +82,6 @@ a:active {
     max-width: 900px;
     width: 100%;
     margin: 0 auto; 
-}
-*/
-
-.container {
-    position: absolute; /* Position the container relative to the viewport */
-    top: 50%;           /* Center vertically */
-    left: 50%;          /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust to fully center */
-    display: flex;
-    flex-direction: column; /* Arrange items vertically */
-    justify-content: center; /* Center items in the container */
-    padding: 20px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    max-width: 900px;
-    width: 100%;
-    margin:0 20px;  /* Ensure equal margins */
 }
 
 .image {
