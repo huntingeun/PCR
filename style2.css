@@ -141,12 +141,9 @@ a:active {
 
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
-    .container {
-        padding: 8px; /* Further reduce padding on very small screens */
-        max-width: 90%; /* Keep some margin on the sides for very small screens */
-    }
+ 
     .image {
-        max-width: 320px;
+        max-width: 340px;
         }
  
 }
