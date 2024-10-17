@@ -27,7 +27,7 @@ header {
     top: 0;
     left: 0;
     width: 100%; /* Make the header span the entire width */
-    background-color: #ffffff;
+    background-color: red;
     color: #000000;
     text-align: center;
     padding: 20px 0 20px 0;
