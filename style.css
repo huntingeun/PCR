@@ -36,7 +36,7 @@ header {
 }
  
 /* Normal link styling */
- a {
+a {
     color: black; /* Initial color for the link */
     text-decoration: none; /* Remove underline if desired */
 }
@@ -50,7 +50,6 @@ a:hover {
 a:active {
     color: black; /* Keep the color the same when clicked */
 }
-
 
 /* Styling the logo and clickable text */
 .h1 {

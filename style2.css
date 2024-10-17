@@ -35,7 +35,7 @@ header {
 }
 
  /* Normal link styling */
- a {
+a {
     color: black; /* Initial color for the link */
     text-decoration: none; /* Remove underline if desired */
 }
