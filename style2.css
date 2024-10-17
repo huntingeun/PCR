@@ -98,7 +98,8 @@ a:active {
     border-radius: 8px;
     max-width: 900px;
     width: 100%;
-    margin: 0;
+    margin-left: auto;  /* Ensure equal margins */
+    margin-right: auto; /* Ensure equal margins */
 }
 
 .image {
