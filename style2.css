@@ -70,7 +70,7 @@ a:active {
     /* You can adjust the margin-top and margin-bottom as needed */
 }
 
-
+/*
 .container {
     display: flex;
     flex-direction: column; 
@@ -80,6 +80,18 @@ a:active {
     max-width: 900px;
     width: 100%;
     margin: 0 auto; 
+}
+*/
+.container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    left: 0;
+    right: 0;
+    height: calc(100vh-114px); 
+    max-width: 900px;
+    width: 100%;
+    background-color: #fff;
 }
 
 .image {
@@ -132,9 +144,7 @@ a:active {
 
 
 @media (max-width: 768px) {
-    .container {
-        height: calc(100vh-114px); /* Adjust the height based on mobile navigation bar */
-    }
+
     .image {
         max-width: 480px;
         }
@@ -143,8 +153,6 @@ a:active {
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     .container {
-        height: calc(100vh-114px); /* Adjust the height based on mobile navigation bar */
-        justify-content: center;
         background-color: green;
     } 
     .image {
