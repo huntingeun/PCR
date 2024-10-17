@@ -74,12 +74,11 @@ a:active {
     display: flex;
     flex-direction: column; /* Arrange items vertically */
     justify-content: center;  /* Center items in the container */
-     /* align-items: center;     Center horizontally */
     height: calc(100vh - 60px); /* Full viewport height minus the header height */
     padding: 20px;
     background-color: #ffffff;
     border-radius: 8px;
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
     margin: 0 auto; /* Center the container */
 }
@@ -87,7 +86,7 @@ a:active {
 .image {
     width: 100%;
     height: auto;
-    max-width: 800px;
+    max-width: 700px;
     margin-bottom: 20px;
     }
 
@@ -136,7 +135,7 @@ a:active {
 @media (max-width: 768px) {
   
     .image {
-        max-width: 600px;
+        max-width: 500px;
         }
 
     
