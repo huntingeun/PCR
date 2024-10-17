@@ -147,7 +147,7 @@ a:active {
 @media (max-width: 480px) {
     .container {
         height: calc(80vh); /* Adjust the height based on mobile navigation bar */
-        justify-content: flex-start;
+        justify-content: center;
         background-color: green;
     } 
     .image {
