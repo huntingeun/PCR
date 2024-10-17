@@ -135,7 +135,7 @@ a:active {
 
 @media (max-width: 768px) {
     .container {
-        height: calc(100vh - 100px); /* Adjust the height based on mobile navigation bar */
+        height: calc(80vh); /* Adjust the height based on mobile navigation bar */
     }
     .image {
         max-width: 480px;
@@ -145,7 +145,7 @@ a:active {
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     .container {
-        height: calc(100vh - 100px); /* Adjust the height based on mobile navigation bar */
+        height: calc(80vh); /* Adjust the height based on mobile navigation bar */
         justify-content: flex-start;
         margin-top: 50px;
     } 
