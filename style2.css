@@ -63,7 +63,7 @@ a:active {
 }
 
 .underline {
-    width: 80%; /* Set width to 80% of viewport */
+    width: 85%; /* Set width to 80% of viewport */
     height: 1px; /* Set thickness of the underline */
     background-color: #BDB8B8; /* Color of the underline */
     margin: 20px auto 0 auto; /* Center it horizontally with margin */
@@ -122,7 +122,7 @@ a:active {
 }
 
 .footer-underline {
-    width: 80%; /* Set width to 80% of viewport */
+    width: 85%; /* Set width to 80% of viewport */
     height: 1px; /* Set thickness of the underline */
     background-color: #BDB8B8; /* Color of the underline */
     margin: 0 auto;  /* Center it horizontally with margin */
