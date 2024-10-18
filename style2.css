@@ -139,7 +139,7 @@ a:active {
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
     .container {
-        margin-bottom: 35px;
+        margin-bottom: 40px;
     }
     .image {
         max-width: 340px;
