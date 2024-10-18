@@ -80,7 +80,6 @@ a:active {
     width: 100%;
     padding: 20px;
     margin: 0 auto; 
-    margin-top: auto;  /* Added line */
 }
 
 .image {
