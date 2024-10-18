@@ -74,12 +74,13 @@ a:active {
     display: flex;
     flex-direction: column; 
     justify-content: center;  
-    height: calc(100vh-114px); 
+    /*height: calc(100vh-114px);*/ 
     background-color: #ffffff;
     max-width: 900px;
     width: 100%;
     padding: 20px;
     margin: 0 auto; 
+    margin-top: auto;  /* Added line */
 }
 
 .image {
