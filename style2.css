@@ -78,6 +78,7 @@ a:active {
     background-color: #ffffff;
     max-width: 900px;
     width: 100%;
+    padding: 20px;
     margin: 0 auto; 
 }
 
@@ -131,7 +132,6 @@ a:active {
 
 
 @media (max-width: 768px) {
-
     .image {
         max-width: 480px;
         }
