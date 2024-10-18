@@ -79,7 +79,6 @@ a:active {
     width: 100%;
     padding: 20px;
     margin: 0 auto; 
-    margin-bottom: 20px;
 }
 
 .image {
@@ -139,6 +138,9 @@ a:active {
 
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
+    .container {
+        margin-bottom: 30px;
+    }
     .image {
         max-width: 340px;
         }
