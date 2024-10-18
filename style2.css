@@ -139,9 +139,6 @@ a:active {
 
 /* Styles for mobile phones (screens less than 480px) */
 @media (max-width: 480px) {
-    .container {
-        background-color: green;
-    } 
     .image {
         max-width: 340px;
         }
