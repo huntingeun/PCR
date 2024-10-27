@@ -37,18 +37,18 @@ header {
  
 /* Normal link styling */
 a {
-    color: black; /* Initial color for the link */
+    color: #504848; /* Initial color for the link */
     text-decoration: none; /* Remove underline if desired */
 }
 
 /* Prevent color change on hover */
 a:hover {
-    color: black; /* Keep the color the same on hover */
+    color: #504848; /* Keep the color the same on hover */
 }
 
 /* Prevent color change when active (clicking) */
 a:active {
-    color: black; /* Keep the color the same when clicked */
+    color: #504848; /* Keep the color the same when clicked */
 }
 
 /* Styling the logo and clickable text */
@@ -57,7 +57,7 @@ a:active {
     font-size: 16px;
     letter-spacing: 0.17em; /* Use em for better control */
     font-weight: 600;
-    color: #6C6161;
+    color: #504848;
     max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
 }

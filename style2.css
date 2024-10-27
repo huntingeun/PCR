@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 100%; /* Make the header span the entire width */
     background-color: #fff;
-    color: #6C6161;
+    color: #504848;
     text-align: center;
     padding: 20px 0 0 0;
     z-index: 1000; /* Ensure the header stays on top of other content */
@@ -36,18 +36,18 @@ header {
 
  /* Normal link styling */
 a {
-    color: black; /* Initial color for the link */
+    color: #504848; /* Initial color for the link */
     text-decoration: none; /* Remove underline if desired */
 }
 
 /* Prevent color change on hover */
 a:hover {
-    color: black; /* Keep the color the same on hover */
+    color: #504848; /* Keep the color the same on hover */
 }
 
 /* Prevent color change when active (clicking) */
 a:active {
-    color: black; /* Keep the color the same when clicked */
+    color: #504848; /* Keep the color the same when clicked */
 }
 
 /* Styling the logo and clickable text */
