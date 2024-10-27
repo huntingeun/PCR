@@ -28,7 +28,7 @@ header {
     left: 0;
     width: 100%; /* Make the header span the entire width */
     background-color: #fff;
-    color: #000000;
+    color: #6C6161;
     text-align: center;
     padding: 20px 0 0 0;
     z-index: 1000; /* Ensure the header stays on top of other content */
