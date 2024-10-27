@@ -56,7 +56,7 @@ a:active {
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 0.17em; /* Use em for better control */
-    font-weight: 900;
+    font-weight: 600;
     color: #504848;
     max-width: 100%; /* Maximum width of the container */
     margin: 0 auto; /* Center align container */
