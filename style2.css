@@ -52,7 +52,6 @@ a:active {
 
 /* Styling the logo and clickable text */
 .h1 {
-    color: #ffffff;
     text-decoration: none;
     font-size: 16px;
     letter-spacing: 0.17em; /* Use em for better control */
