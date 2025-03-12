@@ -16,7 +16,7 @@ html, body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #ffffff;
+    background-color: #EFEAEA;
     gap: 2rem; /* Add vertical space between components */
     max-width: 100%;
     padding: 0; 
@@ -28,7 +28,7 @@ header {
     top: 0;
     left: 0;
     width: 100%; /* Make the header span the entire width */
-    background-color: #ffffff;
+    background-color: #EFEAEA;
     color: #504848;
     text-align: center;
     padding: 20px 0 0 0;
@@ -150,7 +150,7 @@ a:active {
     bottom: 0; /* Align at the bottom */
     left: 0; /* Align at the left */
     width: 100%; /* Full width */
-    background-color: #fff; 
+    background-color: #EFEAEA; 
     color: white;
     padding: 0 0 56px 0; /* Add padding */
 }
